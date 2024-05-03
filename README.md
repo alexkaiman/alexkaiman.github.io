@@ -1,4 +1,4 @@
-### Test page ###
+### My pages ###
 * one
 * two
 * three
