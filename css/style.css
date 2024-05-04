@@ -430,7 +430,9 @@ section{
     transform: translateY(0rem);
     opacity: 1;
 }
-
+.portfolio p{
+    font-size: 1.5rem;
+}
 .contact form{
     margin:1rem auto;
     max-width: 70rem;
