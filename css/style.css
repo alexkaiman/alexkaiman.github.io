@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
     --green:#27ae60;
@@ -13,7 +13,7 @@
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -181,9 +181,9 @@ section{
 }
 
 .home .content h3{
-    font-size: 7rem;
+    font-size: 5rem;
     color:var(--black);
-    line-height: 1.1;
+    line-height: 1.8;
     text-transform: uppercase;
 }
 
@@ -328,6 +328,25 @@ section{
     width: 65%;
 }
 
+.about .row .progress .bar-3-1 span{
+    width: 50%;
+}
+.about .row .progress .bar-3-2 span{
+    width: 55%;
+}
+.about .row .progress .bar-3-3 span{
+    width: 30%;
+}
+.about .row .progress .bar-4-1 span{
+    width: 75%;
+}
+.about .row .progress .bar-4-2 span{
+    width: 60%;
+}
+.about .row .progress .bar-4-3 span{
+    width: 25%;
+}
+
 .services .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -418,7 +437,7 @@ section{
 }
 
 .portfolio .box-container .box .content h3{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color:var(--black);
     text-transform: uppercase;
     transform: translateY(-5rem);
@@ -430,6 +449,13 @@ section{
     transform: translateY(0rem);
     opacity: 1;
 }
+.portfolio .box-container .box:hover .content p{
+	text-transform: none;
+	font-size: 1.4rem;
+	text-align: start;
+    color:var(--light-color);
+	place-self: center start;
+}	
 .portfolio p{
     font-size: 1.5rem;
 }
@@ -513,4 +539,12 @@ section{
         border-right: 0;
     }
 
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    font-size: 24px; /* Увеличенный размер шрифта */
+    font-weight: bold; /* Делаем текст жирным для лучшей видимости */
 }
